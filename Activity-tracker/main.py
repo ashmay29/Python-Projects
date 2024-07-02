@@ -27,7 +27,7 @@ exercises = response.json()
 # print(exercises)
 
 sheet_header = {
-    "Authorization":"Bearer ahs1210",
+    "Authorization": "header",
     }
 
 today_date = datetime.now().strftime("%d/%m/%Y")
