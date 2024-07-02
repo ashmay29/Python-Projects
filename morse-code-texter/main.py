@@ -16,3 +16,4 @@ def text_to_morse(string):
     return " ".join(morse_code)
 
 print(text_to_morse(message))
+print(message)
